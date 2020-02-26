@@ -48,7 +48,7 @@ class SignIn extends React.Component {
                 {/* <!-- Login Form --> */}
                 <form onSubmit={e => e.preventDefault()}>
                     <input 
-                      type="text" 
+                      type="email" 
                       id="login" 
                       className="fadeIn second" 
                       name="email" 
